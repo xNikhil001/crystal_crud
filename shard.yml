@@ -1,0 +1,19 @@
+name: crystal_crud
+version: 0.1.0
+
+authors:
+  - Nikhil Naik naikn8113@gmail.com
+
+targets:
+  crystal_crud:
+    main: src/main.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  pg:
+    github: will/crystal-pg
+
+crystal: 1.8.2
+
+license: MIT
